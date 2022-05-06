@@ -1,0 +1,89 @@
+body {
+    background-image: url(/images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'PT Serif', serif;
+    color: #F7F7F7;
+}
+
+/* Logo */
+
+.top {
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tj_top {
+    width: 40%;
+}
+
+/* Main */
+
+.main {
+    margin: 40px auto;
+    width: 70%;
+    border-radius: 5px;
+    background-color: rgba(141, 141, 170, 0.9);
+
+}
+
+/* Polaroid picture */
+
+.polaroid {
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    width: 300px;
+    height: 300px;
+}
+
+/* Text part */
+
+.texts {
+    display: flex;
+    flex-direction: column;
+}
+.instructions {
+    width: 80%;
+    margin: 20px auto;
+}
+h1 {
+    color: #4A403A;
+    text-align: center;
+}
+p {
+    text-align: justify;
+    line-height: 25px;
+}
+li {
+    line-height: 25px;
+}
+
+/* Download */
+
+.download {
+    width: 40%;
+    padding: 15px;
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+.download p {
+    text-align: center;
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: #4A403A;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+a:link {
+    color: #F7F7F7;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #F7F7F7;
+  }
+  a:hover {
+    color: rgba(141, 141, 170);
+  }

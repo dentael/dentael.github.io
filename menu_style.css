@@ -1,0 +1,55 @@
+body {
+    background-image: url(/images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    color: #F7F7F7;
+}
+
+/* Links */
+
+a:link {
+    color: #F7F7F7;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #F7F7F7;
+  }
+  a:hover {
+    color: #4A403A;
+  }
+  
+/* Logo */
+
+.top {
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tj_top {
+    width: 40%;
+}
+
+/* Boxes */
+
+.allBoxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.box {
+    width: 120px;
+    height: 90px;
+    border-radius: 5px;
+    background-color: rgba(141, 141, 170, 0.8);
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 15px;
+}
+.crown, .retainer, .implant {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}

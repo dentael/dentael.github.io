@@ -1,0 +1,45 @@
+body {
+    background-image: url(/images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.login-box {
+    margin: 15% auto;
+    background-color: rgba(141, 141, 170, 0.9);
+    border-radius: 5px;
+    width: 30%;
+    padding-bottom: 50px;
+    color: white;
+    font-family: 'PT Serif', serif;
+}
+.input-box {
+    margin: 30px auto;
+    width: 80%;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.input-box input {
+    width: 70%;
+    padding-left: 15px;
+    border: none;
+    background: transparent;
+    outline: none;
+    color: white;
+}
+.login-logo {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+::placeholder {
+    color: lightgrey;
+}
