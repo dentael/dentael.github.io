@@ -38,16 +38,22 @@ a:link {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 80px;
+    margin-top: 60px;
+    gap: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .box {
+    margin-left: auto;
+    margin-right: auto;
     width: 120px;
     height: 90px;
     border-radius: 5px;
     background-color: rgba(141, 141, 170, 0.8);
     text-align: center;
     padding-top: 30px;
-    margin-top: 15px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .crown, .retainer, .implant {
   padding-top: 20px;
