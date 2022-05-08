@@ -1,7 +1,5 @@
 body {
-    background-image: url(/images/background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #F3F1F5;
     font-family: 'Roboto Flex', sans-serif;
     color: #F7F7F7;
 }
@@ -22,7 +20,7 @@ body {
 
 .main {
     margin: 40px auto;
-    width: 70%;
+    width: 90%;
     border-radius: 5px;
     background-color: rgba(141, 141, 170, 0.9);
 
@@ -46,7 +44,7 @@ body {
     flex-direction: column;
 }
 .instructions {
-    width: 80%;
+    width: 90%;
     margin: 20px auto;
 }
 h1 {
