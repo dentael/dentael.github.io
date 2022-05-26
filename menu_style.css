@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Roboto Flex', sans-serif;
     font-weight: 500;
-    background-color: whitesmoke;
+    background-color: #FFFFFF;
 }
 
 /* Logo */
@@ -10,7 +10,7 @@ body {
 .top {
   position: fixed;
   top: 0;
-  background-color: whitesmoke;
+  background-color: white;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -74,7 +74,7 @@ a:link {
 /* Footer */
 
 .footer {
-  background-color: whitesmoke;
+  background-color: white;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
