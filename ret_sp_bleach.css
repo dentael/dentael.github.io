@@ -7,7 +7,8 @@ body {
 /* Logo */
 
 .top {
-    margin: 50px auto;
+    background-color: white;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -22,7 +23,7 @@ body {
 /* Main */
 
 .main {
-    margin: 40px auto;
+    margin: 30px auto;
     width: 90%;
     border-radius: 5px;
     background-color: rgba(119,141,174, 1);
