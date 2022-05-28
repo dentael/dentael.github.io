@@ -29,11 +29,11 @@ a:link {
     color: #F7F7F7;
     text-decoration: none;
   }
+a:hover {
+    color: #4A403A;
+  }
   a:visited {
     color: #F7F7F7;
-  }
-  a:hover {
-    color: #4A403A;
   }
 
 /* Boxes */
@@ -80,13 +80,20 @@ a:link {
   justify-content: space-evenly;
   align-items: center;
   color: black;
+  padding-bottom: 2%;
 }
 .footer_container{
   text-align: center;
-  padding-top: 1%;
+  padding-top: 2%;
   width: 250px;
 }
 .icon {
   width: 3%;
   min-width: 50px;
+}
+.mail {
+  width: 6%;
+}
+.location {
+  width: 2%;
 }
