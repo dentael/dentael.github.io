@@ -3,7 +3,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 100px;
 }
 
 /* Logo */
@@ -25,6 +24,10 @@ body {
   }
 
 /* All pictures */
+
+.firstPic {
+    margin-top: 100px;
+}
 
 img {
     display: block;
