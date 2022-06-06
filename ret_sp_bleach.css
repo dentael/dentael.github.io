@@ -1,86 +1,63 @@
 body {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
     font-family: 'Roboto Flex', sans-serif;
-    color: #F7F7F7;
+    font-weight: bold;
 }
 
 /* Logo */
 
 .top {
+    /* position: fixed; */
+    /* top: 0; */
     background-color: white;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-.dentael_top {
-    padding: 1%;
-    padding-top: 1.5%;
+  }
+  .dentael_top {
+    padding: 2%;
     width: 20%;
-    min-width: 200px;
+    min-width: 170px;
   }
 
-/* Main */
+/* All pictures */
 
-.main {
-    margin: 30px auto;
-    width: 90%;
-    /* border-radius: 5px; */
-    background-color: #6A779D;
-
-}
-
-/* Polaroid picture */
-
-.polaroid {
+img {
     display: block;
-    margin: 0 auto;
-    padding-top: 30px;
-    padding-bottom: 15px;
-    width: 300px;
-    height: 300px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5%;
+    /* border-radius: 5px; */
+}
+.lastPic {
+    padding-bottom: 2%;
 }
 
-/* Text part */
-
-.texts {
-    display: flex;
-    flex-direction: column;
-}
-.instructions {
-    width: 90%;
-    margin: 20px auto;
-}
-h1 {
-    color: #4A403A;
-    text-align: center;
-}
-p {
-    text-align: justify;
-    line-height: 25px;
-}
-li {
-    line-height: 25px;
-}
 
 /* Download */
 
 .download {
     width: 40%;
     padding: 15px;
-    margin-top: 60px;
-    padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
 }
 .download p {
     text-align: center;
     font-size: 20px;
     border-radius: 6px;
-    background-color: #4A403A;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    background-color: #F9C041;
+    padding: 2%;
 }
 a:link {
-    color: #F7F7F7;
+    color: #6A779D;
     text-decoration: none;
   }
   a:visited {
