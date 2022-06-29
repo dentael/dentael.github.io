@@ -41,19 +41,20 @@ a:hover {
 .allBoxes {
     margin-left: auto;
     margin-right: auto;
-    width: 85%;
+    width: 80%;
     /* border-radius: 5px; */
     background-image: url(/images/splint3d.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: 85% 100%;
+    background-position: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 10%;
     padding: 5%;
-    padding-bottom: 3%;
-    margin-top: 85px;
+    padding-bottom: 4%;
+    margin-top: 90px;
 }
 .box {
     margin-left: auto;
