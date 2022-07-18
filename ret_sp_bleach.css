@@ -1,5 +1,12 @@
 body {
     background-color: #f2f2f2;
+    
+    /* background-image: url(/images/gbg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center; */
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
