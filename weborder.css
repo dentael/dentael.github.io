@@ -25,6 +25,10 @@ body {
 
 /* All pictures */
 
+.link {
+  width: 5%;
+}
+
 img {
     display: block;
     width: 80%;
@@ -33,6 +37,7 @@ img {
     padding-bottom: 5%;
     /* border-radius: 5px; */
 }
+
 .firstPic {
   width: 90%;
 }
