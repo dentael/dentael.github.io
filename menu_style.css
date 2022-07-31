@@ -42,11 +42,11 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    /* border-radius: 5px; */
-    background-image: url(/images/splint3d.jpg);
-    background-repeat: no-repeat;
+    background-image: url(/images/small_bg2.jpg);
+    background-color: #f2f2f2;
+    background-image: no-repeat;
     background-attachment: fixed;
-    background-size: 85% 100%;
+    background-size:100% 100%;
     background-position: center;
     display: flex;
     flex-wrap: wrap;
@@ -56,6 +56,18 @@ a:hover {
     padding-bottom: 4%;
     margin-top: 90px;
 }
+
+@media only screen and (min-width: 700px) {
+  .allBoxes {
+    background-image: url(/images/splint3d.jpg); 
+    background-color: #f2f2f2;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 85% 100%;
+    background-position: center;
+  }
+} 
+
 .box {
     margin-left: auto;
     margin-right: auto;
