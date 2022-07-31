@@ -42,7 +42,7 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    background-image: url(/images/splint_smallest.jpg);
+    background-image: url(/images/stain_small.jpg);
     background-color: #f2f2f2;
     background-image: no-repeat;
     background-attachment: fixed;
@@ -57,7 +57,7 @@ a:hover {
     margin-top: 90px;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 600px) {
   .allBoxes {
     background-image: url(/images/splint3d.jpg); 
     background-color: #f2f2f2;
