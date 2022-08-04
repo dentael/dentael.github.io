@@ -26,6 +26,12 @@ body {
   background: #7F8487;
 }
 
+@supports (scrollbar-color: #cccccc rgba(119,141,174, 0.7)) {
+  * {
+    scrollbar-color: #cccccc rgba(119,141,174, 0.7);
+  }
+}
+
 /* Logo */
 
 .top {
