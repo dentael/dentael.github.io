@@ -55,12 +55,12 @@ a:link {
     color: #F7F7F7;
     text-decoration: none;
   }
-a:hover {
-    color: #4A403A;
-  }
-  a:visited {
+a:visited {
     color: #F7F7F7;
   }
+  /* a:hover {
+    font-size: large;
+  } */
 
 /* Boxes */
 
@@ -105,6 +105,11 @@ a:hover {
     padding-top: 30px;
     margin-top: 5%;
     margin-bottom: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: 0.2s;
+}
+.box:hover {
+  background-color: rgba(119,141,174, 1);
 }
 .twoLine {
   padding-top: 20px;
@@ -113,27 +118,19 @@ a:hover {
 
 /* Footer */
 
-.footer {
-  background-color: #f2f2f2;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  color: black;
-  padding-bottom: 2%;
-}
-.footer_container{
-  text-align: center;
-  padding-top: 4%;
-  width: 250px;
-}
 .icon {
-  width: 3%;
+  width: 4%;
   min-width: 50px;
 }
-.mail {
-  width: 22%;
-}
-.location {
-  width: 2%;
+.bottom {
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+  height: 90px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px 25px 20px 25px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
