@@ -111,6 +111,10 @@ border-radius: 6px;
 .logo {
   margin: auto;
 }
+body {
+  position: absolute;
+  top: 7%;
+}
 }
 
 /* All pictures */

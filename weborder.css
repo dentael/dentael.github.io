@@ -6,8 +6,9 @@ body {
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 10%;
+    top: 5%;
 }
+
 
 /* Scrollbar */
 
@@ -109,6 +110,10 @@ body {
   }
   .logo {
     margin: auto;
+  }
+  body {
+    position: absolute;
+    top: 7%;
   }
 }
 
