@@ -87,6 +87,9 @@ body {
   padding: 1rem;
   display: block;
 }
+.lastIcon {
+  margin-right: 5%;
+}
 .toggle-button {
   position: absolute;
   top: 1rem;
