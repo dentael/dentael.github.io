@@ -116,13 +116,6 @@ border-radius: 6px;
 .logo {
   margin: auto;
 }
-body {
-  position: absolute;
-  top: 7%;
-}
-.firstPic {
-  width: 100%;
-}
 }
 
 /* All pictures */
@@ -135,25 +128,52 @@ img {
     padding-bottom: 5%;
     /* border-radius: 5px; */
 }
+.firstPic {
+  padding-bottom: 0;
+}
+.bg_first_pic {
+  width: 100%;
+  background-color: #cccccc;
+}
+.lastPic {
+  padding-bottom: 2%;
+}
+.exp {
+padding: 0;
+}
+.link {
+width: 5%;
+}
+
+/* Device settings */
+
+@media only screen and (max-width: 600px) {
+  img {
+    width: 100%;
+  }
+  body {
+    position: absolute;
+    top: 10%;
+  }
+} 
 @media only screen and (min-width: 600px) {
   img {
     width: 80%;
   }
+  body {
+    position: absolute;
+    top: 8%;
+  }
 } 
-.firstPic {
-  width: 100%;
-}
-.lastPic {
-    padding-bottom: 2%;
-}
-
-.exp {
-  padding: 0;
-}
-.link {
-  width: 5%;
-}
-
+@media only screen and (min-width: 1800px) {
+  img {
+    width: 70%;
+  }
+  body {
+    position: absolute;
+    top: 4%;
+  }
+} 
 
 /* Download */
 
