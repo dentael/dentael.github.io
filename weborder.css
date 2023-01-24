@@ -135,6 +135,7 @@ img {
 .bg_first_pic {
   width: 100%;
   background-color: #cccccc;
+  margin-bottom: 20px;
 }
 .lastPic {
   padding-bottom: 5%;
