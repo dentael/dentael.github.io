@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/images/logo.png">
     <title>Codes and prices</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="weborder.css">
     <link rel="stylesheet" href="weborder.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,48 +17,57 @@
 <!-- Nav bar -->
 
 <header>
-<nav class="navbar">
-    <div class="logo"><a href="index.html"><img class="dentael_top" src="images/dentael_logo.png"></a></div>
-    <a href="#" class="toggle-button">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-    </a>
-    <div class="navbar-links">
-        <ul class="">
-            <li>
-                <a href="weborder.html"><img class="nav-icon" src="images/navbar icons/weborder.png"></a>
-            </li>
-            <li>
-                <a href="prices.html"><img class="nav-icon" src="images/navbar icons/prices.png"></a>
-            </li>
-            <li>
-                <a href="deadlines.html"><img class="nav-icon" src="images/navbar icons/deadlines.png"></a>
-            </li>
-            <li>
-                <a href="scanning.html"><img class="nav-icon" src="images/navbar icons/scan.png"></a>
-            </li>
-            <li>
-                <a href="implant.html"><img class="nav-icon" src="images/navbar icons/implant.png"></a>
-            </li>
-            <li>
-                <a href="retainer.html"><img class="nav-icon" src="images/navbar icons/ir.png"></a>
-            </li>
-            <li>
-                <a href="splint.html"><img class="nav-icon" src="images/navbar icons/splint.png"></a>
-            </li>
-            <li>
-                <a href="bleaching.html"><img class="nav-icon" src="images/navbar icons/bleaching.png"></a>
-            </li>
-            <li>
-                <a href="mouthguard.html"><img class="nav-icon" src="images/navbar icons/mouth-guard.png"></a>
-            </li>
-            <li class="lastIcon">
-                <a href="photo.html"><img class="nav-icon" src="images/navbar icons/photo.png"></a>
-            </li>
-        </ul>
+    <!-- Nav bar -->
+
+<div class="container-fluid">
+
+    <nav class="navbar navbar-expand-lg">
+    
+        <!--Brand,logo-->    
+        <a class="navbar-brand" href="index.html"><img class="dentael_top" src="images/dentael_logo.png"></a>
+    
+        <!--Burger menu-->    
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!--Menu-->    
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03"> 
+            <ul class="navbar-nav ms-auto justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="weborder.html">Weborder</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="prices.html">Codes & Prices</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="deadlines.html">Deadlines</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="scanning.html">Scanning</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="implant.html">Implant scan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="retainer.html">Retainer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="splint.html">Splint</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bleaching.html">Bleaching</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mouthguard.html">Mounthguard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="photo.html">Photo</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     </div>
-</nav>
 </header>
 
 <!-- All pictures -->
@@ -73,6 +84,7 @@
     <img src="images/prices menu/6.png" alt="">
     <img class="lastPic" src="images/prices menu/7.png" alt="">
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
